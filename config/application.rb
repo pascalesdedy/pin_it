@@ -8,6 +8,7 @@ Bundler.require(*Rails.groups)
 
 module PinIt
   class Application < Rails::Application
+    Paperclip.options[:command_path] = 'C:\Program Files (x86)\GnuWin32\bin'
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
