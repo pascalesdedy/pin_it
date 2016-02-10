@@ -1,28 +1,20 @@
-== README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+== README ==
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+This is Pinterest Clone. not perfect onr but it works .. :D 
+
+* Ruby version : lali 
+  Rails 4.5.2.1
+
+* Require :
+  gem 'simple_form', '~> 3.2', '>= 3.2.1'
+  gem 'devise', '~> 3.5', '>= 3.5.6'
+  gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
+  gem 'haml', '~> 4.0', '>= 4.0.7'
+  gem 'paperclip', '~> 4.3', '>= 4.3.4'
+  gem 'masonry-rails', '~> 0.2.4'
+
+* Only works on dev environment only
+
+* Still got little issue on paperclip gem. 
+  workaround: don't use style when uploading image.
