@@ -1,6 +1,6 @@
 {
   "name": "Pin it",
   "tagline": "Pinterest clone using ruby on rails",
-  "body": "This is Pinterest Clone written in Ruby on Rails.\r\n\r\nInstallation :\r\n\r\n*Run git `clone`\r\n*cd to the app folder\r\n*Run `bundle install`\r\n*Run `rake db:migrate` or `bundle exec rake db:migrate`\r\n*Run rails server\r\n*Open `localhost:3000` on your browser\r\n\r\nIntegrated with devise authentication, so visitor can create account for them. \r\nBootstrap-sass for styling paperclip gem for uploading image",
+  "body": "This is Pinterest Clone written in Ruby on Rails.\r\n\r\nInstallation :\r\n\r\n* Run git `clone`\r\n* cd to the app folder\r\n* Run `bundle install`\r\n* Run `rake db:migrate` or `bundle exec rake db:migrate`\r\n* Run rails server\r\n* Open `localhost:3000` on your browser\r\n\r\nIntegrated with devise authentication, so visitor can create account for them.   \r\nBootstrap-sass for styling paperclip gem for uploading image   \r\npaperclip for Image Uploading  \r\nMasonry for styling",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
