@@ -14,7 +14,7 @@ gem 'haml', '~> 4.0', '>= 4.0.7'
 gem 'paperclip', '~> 4.3', '>= 4.3.4'
 gem 'masonry-rails', '~> 0.2.4'
 
-gem 'pg'
+gem 'pg','~> 0.18'
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
