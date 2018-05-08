@@ -7,7 +7,6 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'rails_12factor'
-gem 'sqlite3', '~> 1.3', '>= 1.3.11'
 gem 'simple_form', '~> 3.2', '>= 3.2.1'
 gem 'devise', '~> 3.5', '>= 3.5.6'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
@@ -25,5 +24,9 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :production do
-  gem 'pg'
+	gem 'pg'
+end
+
+group :development do
+	gem 'sqlite3', '~> 1.3', '>= 1.3.11'
 end
